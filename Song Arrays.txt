@@ -1,0 +1,181 @@
+//  Compilation of tunes 
+//  Compiled by: John Jutoy
+//  last updated: 12/18/18
+
+//Melodies and Frequency Arrays
+
+//Mario main theme melody
+//Translated by: Dipto Pratyaksa
+
+int marioM[] = {
+
+  E7, E7, 0, E7,
+  0, C7, E7, 0,
+  G7, 0, 0,  0,
+  G6, 0, 0, 0,
+
+  C7, 0, 0, G6,
+  0, 0, E6, 0,
+  0, A6, 0, B6,
+  0, AS6, A6, 0,
+
+  G6, E7, G7,
+  A7, 0, F7, G7,
+  0, E7, 0, C7,
+  D7, B6, 0, 0,
+
+  C7, 0, 0, G6,
+  0, 0, E6, 0,
+  0, A6, 0, B6,
+  0, AS6, A6, 0,
+
+  G6, E7, G7,
+  A7, 0, F7, G7,
+  0, E7, 0, C7,
+  D7, B6, 0, 0
+};
+
+int marioT[] = {
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+
+  9, 9, 9,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+
+  9, 9, 9,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+  12, 12, 12, 12,
+};
+
+
+//Underworld melody
+//Translated by: Dipto Pratyaksa
+
+int underworldM[] = {
+  C4, C5, A3, A4,
+  AS3, AS4, 0,
+  0,
+  C4, C5, A3, A4,
+  AS3, AS4, 0,
+  0,
+  F3, F4, D3, D4,
+  DS3, DS4, 0,
+  0,
+  F3, F4, D3, D4,
+  DS3, DS4, 0,
+  0, DS4, CS4, D4,
+  CS4, DS4,
+  DS4, GS3,
+  G3, CS4,
+  C4, FS4, F4, E3, AS4, A4,
+  GS4, DS4, B3,
+  AS3, A3, GS3,
+  0, 0, 0
+};
+
+int underworld_tempo[] = {
+  12, 12, 12, 12,
+  12, 12, 6,
+  3,
+  12, 12, 12, 12,
+  12, 12, 6,
+  3,
+  12, 12, 12, 12,
+  12, 12, 6,
+  3,
+  12, 12, 12, 12,
+  12, 12, 6,
+  6, 18, 18, 18,
+  6, 6,
+  6, 6,
+  6, 6,
+  18, 18, 18, 18, 18, 18,
+  10, 10, 10,
+  10, 10, 10,
+  3, 3, 3
+};
+
+
+//Wind Scene
+//Translated by: John Jutoy
+
+int windSceneM[] = {
+  D5, E5,
+  F5, C5, A5, D6, Rest, Rest, D6
+};
+
+int windSceneT[] = {
+  4, 4,
+  8, 8, 8, 8, 8, 8, 8, 8
+};
+
+
+//Stranger Things
+//Translated by: John Jutoy
+
+int strangerThingsM[] = {
+  A5, C5, E5, G5, A6, G5, E5, C5,
+  A5, C5, E5, G5, A6, G5, E5, C5,
+  A5, C5, E5, G5, A6, G5, E5, C5,
+  A5, C5, E5, G5, A6, G5, E5, C5
+};
+
+int strangerThingsT[] = {
+  16, 16, 16, 16, 16, 16, 16, 16,
+  16, 16, 16, 16, 16, 16, 16, 16,
+  16, 16, 16, 16, 16, 16, 16, 16,
+  16, 16, 16, 16, 16, 16, 16, 16
+};
+
+
+//Jingle Bells
+//Translated by: John Jutoy
+
+int jingleBellsM[] = {
+  C4, A5, G4, F4,
+  C4, C4, C4,
+  C4, A5, G4, F4,
+  D4,
+
+  D4, AS5, A5, G4,
+  E4,
+  C5, C5, AS5, G4,
+  A5,
+
+  C4, A5, G4, F4,
+  C4,
+  C4, A5, G4, F4,
+  D4, D4
+};
+
+int jingleBellsT[] = {
+  4, 4, 4, 4,
+  4 / 3, 8, 8,
+  4, 4, 4, 4,
+  4 / 3,
+
+  4, 4, 4, 4,
+  4 / 3,
+  4, 4, 4, 4,
+  4 / 3,
+
+  4, 4, 4, 4,
+  4 / 3,
+  4, 4, 4, 4,
+  4 / 3, 4
+};
